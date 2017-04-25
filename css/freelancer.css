@@ -3,6 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
+@font-face {
+  font-family: 'sf_slapstick_comicregular';
+  src: url("sfslapstickcomic-webfont.woff2") format("woff2"), url("sfslapstickcomic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden; }
@@ -27,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "sf_slapstick_comicregular", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 300; }
 
@@ -43,7 +49,7 @@ hr.star-primary {
 hr.star-light:after,
 hr.star-primary:after {
   content: "\f005";
-  font-family: 'Raleway';
+  font-family: 'sf_slapstick_comicregular';
   display: inline-block;
   position: relative;
   top: -0.8em;
@@ -102,7 +108,7 @@ section.success {
 
 #mainNav {
   background: #FFFFFF;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "sf_slapstick_comicregular", Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none; }
@@ -167,7 +173,7 @@ header.masthead {
     margin: 0 auto 20px; }
   header.masthead .intro-text .name {
     display: block;
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "sf_slapstick_comicregular", Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 2em; }

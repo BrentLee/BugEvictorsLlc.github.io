@@ -11,3 +11,11 @@ $gray-dark:        lighten($gray-base, 20%);   // #333
 $gray:             lighten($gray-base, 33.5%); // #555
 $gray-light:       lighten($gray-base, 46.7%); // #777
 $gray-lighter:     lighten($gray-base, 93.5%); // #eee
+
+@font-face {
+    font-family: 'sf_slapstick_comicregular';
+    src: url('sfslapstickcomic-webfont.woff2') format('woff2'),
+         url('sfslapstickcomic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
